@@ -29,7 +29,7 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/joulnarabouchakra/Desktop/Visualisation - FZ/assignment_3/data/education_merged_final.csv", encoding="utf-8")
+    return pd.read_csv("data/education_merged_final.csv", encoding="utf-8")
 
 df = load_data()
 
